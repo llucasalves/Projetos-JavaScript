@@ -1,0 +1,30 @@
+body{
+    background: rgba(169, 158, 201, 0.533);
+    text-align: center;
+}
+
+button{
+    height: 40px;
+    width: 20%;
+    border-radius: 50px;
+    border: none;
+}
+
+#ligar{
+    background: crimson;
+}
+
+#desligar{
+    background: cyan;
+}
+
+
+#ligar:hover{
+    cursor: pointer;
+    background: white;
+}
+
+#desligar:hover{
+    cursor: pointer;
+    background: white;
+}
