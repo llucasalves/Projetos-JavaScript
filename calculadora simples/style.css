@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(85, 30, 122),rgb(57, 57, 138));
+}
+
+#visor{
+    height: 50px;
+    width: 300px;
+    margin-left: 532px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: xx-large;
+    background: transparent;
+    background: white;
+}
+
+button{
+    font-size: x-large;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    box-shadow: 4px 4px black;
+}
+
+button:hover{
+    background-image: linear-gradient(to right, rgb(150, 43, 226),rgb(35, 35, 243));
+    cursor: pointer;
+    color: cornsilk;
+}

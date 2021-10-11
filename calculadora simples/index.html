@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples 2021</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+    <h1>Calculadora VsCode</h1>
+
+  <div id="visor">0</div>
+
+  <div class="primeira-parte">
+    <button onclick="calcular('7')" id="bt1">7</button>
+    <button onclick="calcular('8')" id="bt2">8</button>
+    <button onclick="calcular('9')" id="bt3">9</button>
+    <button onclick="calcular('*')" id="bt4">x</button>
+  </div>
+
+  <div class="segunda-parte">
+    <button onclick="calcular('4')" id="bt5">4</button>
+    <button onclick="calcular('5')" id="bt6">5</button>
+    <button onclick="calcular('6')" id="bt7">6</button>
+    <button onclick="calcular('-')" id="bt8">-</button>
+  </div>
+
+  <div class="terceira-parte">
+    <button onclick="calcular('1')" id="bt9">1</button>
+    <button onclick="calcular('2')" id="bt10">2</button>
+    <button onclick="calcular('3')" id="bt11">3</button>
+    <button onclick="calcular('+')" id="bt12">+</button>
+  </div>
+
+  <div class="quarta-parte">
+    <button onclick="calcular('/')" id="bt13">/</button>
+    <button onclick="calcular('0')" id="bt14">0</button>
+    <button onclick="limpar()" id="bt15">C</button>
+    <button onclick="igualar()" id="bt16">=</button>
+  </div>
+ 
+
+    <script src="app.js"></script>
+</body>
+</html>
