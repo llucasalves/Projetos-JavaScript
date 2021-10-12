@@ -1,0 +1,27 @@
+body{
+    background: rgb(224, 224, 224);
+    text-align: center;
+}
+
+#tempo{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: xx-large;
+    letter-spacing: 5px;
+}
+
+.titulo{
+    margin-top: 150px;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    letter-spacing: 3px;
+}
+
+button:hover{
+    background: rgba(14, 222, 250, 0.533);
+    color: aliceblue;
+    cursor: pointer;
+}
